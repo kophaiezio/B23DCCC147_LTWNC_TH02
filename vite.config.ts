@@ -1,0 +1,17 @@
+import { defineConfig } from 'vitest/config';
+import react from '@vitejs/plugin-react';
+
+export default defineConfig({
+  plugins: [react()],
+  test: {
+    environment: 'jsdom',
+    setupFiles: ['./src/setupTests.ts'],
+    css: true,
+    coverage: {
+      provider: 'v8',
+      include: ['src/features/**/*.{ts,tsx}', 'src/utils/**/*.{ts,tsx}'],
+      reporter: ['text', 'html'],
+      thresholds: { lines: 70 },
+    },
+  },
+});
