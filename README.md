@@ -15,7 +15,7 @@
 
 ## Công nghệ
 
-React 18, TypeScript strict, Vite, React Router DOM v6, Zustand, react-window v1, Vitest, jsdom, React Testing Library và user-event.
+React 18, TypeScript strict, Vite, React Router DOM v6, Zustand, react-window v1, Vitest, jsdom, React Testing Library và user-event. Font DM Sans, DM Mono và Playfair Display được đóng gói cùng ứng dụng, bao gồm glyph tiếng Việt; ứng dụng không cần kết nối dịch vụ font bên ngoài.
 
 ## Cấu trúc
 

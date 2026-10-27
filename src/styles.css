@@ -1,3 +1,20 @@
+@import '@fontsource/dm-sans/latin-400.css';
+@import '@fontsource/dm-sans/latin-ext-400.css';
+@import '@fontsource/dm-sans/latin-500.css';
+@import '@fontsource/dm-sans/latin-ext-500.css';
+@import '@fontsource/dm-sans/latin-600.css';
+@import '@fontsource/dm-sans/latin-ext-600.css';
+@import '@fontsource/dm-sans/latin-700.css';
+@import '@fontsource/dm-sans/latin-ext-700.css';
+@import '@fontsource/dm-mono/latin-400.css';
+@import '@fontsource/dm-mono/latin-ext-400.css';
+@import '@fontsource/dm-mono/latin-500.css';
+@import '@fontsource/dm-mono/latin-ext-500.css';
+@import '@fontsource/playfair-display/latin-500.css';
+@import '@fontsource/playfair-display/latin-ext-500.css';
+@import '@fontsource/playfair-display/latin-500-italic.css';
+@import '@fontsource/playfair-display/latin-ext-500-italic.css';
+
 :root {
   font-family: 'DM Sans', 'Segoe UI', sans-serif;
   color: #242621;
@@ -56,8 +73,8 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .library-heading { min-height: 208px; }
 .compact-heading { min-height: 168px; }
 .section-label { margin: 0 0 12px; color: var(--accent); font: 10px 'DM Mono', monospace; letter-spacing: .14em; }
-h1 { margin: 0; font-size: clamp(36px, 5vw, 58px); font-weight: 500; letter-spacing: -.065em; line-height: 1.05; }
-h1 em { color: var(--accent); font-family: 'Playfair Display', Georgia, serif; font-weight: 500; }
+h1 { margin: 0; font-size: clamp(36px, 5vw, 58px); font-weight: 500; letter-spacing: -.035em; line-height: 1.05; }
+h1 em { color: var(--accent); font-family: 'Playfair Display', Georgia, serif; font-weight: 500; letter-spacing: -.015em; }
 .intro-copy { margin: 14px 0 0; color: var(--muted); font-size: 13px; }
 .library-mark { position: relative; display: grid; width: 102px; height: 102px; place-items: center; border: 1px solid var(--line); border-radius: 50%; color: var(--accent); font: 26px 'Playfair Display', Georgia, serif; transform: rotate(-12deg); }
 .library-mark span { border: 1px solid var(--accent); border-radius: 50%; padding: 12px 10px; }
